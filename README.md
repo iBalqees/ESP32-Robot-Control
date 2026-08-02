@@ -3,7 +3,7 @@ A simple project that connects an ESP32 with a PHP &amp; MySQL server to receive
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - ESP32 (Arduino IDE)
 - PHP
 - MySQL
@@ -11,7 +11,7 @@ A simple project that connects an ESP32 with a PHP &amp; MySQL server to receive
 
 ---
 
-## 📝 Project Workflow
+## Project Workflow
 1. Database Setup: Created a MySQL database to store commands and system states.
 2. Backend Development: Implemented PHP scripts (such as `get_state.php`) on the web server to fetch and output the current state data.
 3. ESP32 Programming: Wrote and configured the C++ code in Arduino IDE to connect the ESP32 to Wi-Fi and communicate with the web server.
@@ -23,8 +23,11 @@ A simple project that connects an ESP32 with a PHP &amp; MySQL server to receive
 ![Project Output](output1.png)
 
 ---
-## 📂 Source Code
+## Project Files
 
-- Web Files: index.html, db.php, get_state.php, update_command.php
-- Database: setup.sql
-- ESP32 Code: sketch2.ino
+- [Web Interface](index.html)
+- [Database Configuration](db.php)
+- [Get State Script](get_state.php)
+- [Update Command Script](update_command.php)
+- [Database File](setup.sql)
+- [ESP32 Arduino Code](sketch2.ino)
