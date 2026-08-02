@@ -20,5 +20,11 @@ A simple project that connects an ESP32 with a PHP &amp; MySQL server to receive
 ---
 
 ## 📸 Output
+![Project Output](output1.png)
 
-![Project Output](images/output1.png)
+---
+## 📂 Source Code
+
+- Web Files: index.html, db.php, get_state.php, update_command.php
+- Database: setup.sql
+- ESP32 Code: sketch2.ino
